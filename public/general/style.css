@@ -1,0 +1,6 @@
+.custom-alert{
+    width: max-content;
+    max-width: 400px;
+    margin-top: 50px;
+    z-index: 2010;
+}

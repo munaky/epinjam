@@ -1,0 +1,14 @@
+const contentPath = withPathName('/api/get/content');
+const stylePath = withPathName('/content');
+const realtimePath = withPathName('/api/get/realtime')
+var html5QrCode = null;
+var scannerPending = false;
+var categoryFilter = ' ';
+var currMenu = 'home';
+var scannerMode = null;
+var scannerModal = false;
+var extendLifetime = false;
+var calledFrom = null;
+var muridId = null;
+var prevName = null;
+var detailsType = null;
